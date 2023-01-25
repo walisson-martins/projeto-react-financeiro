@@ -1,0 +1,17 @@
+const { createGlobalStyle } = require("styled-components");
+
+const Global = createGlobalStyle`
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: 'Popins', Sans-Serif;
+    background-color: #f2f2f2;
+}
+`;
+
+export default Global;
